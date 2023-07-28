@@ -1,5 +1,8 @@
 # IPFS
 
+This dokernized ipfs server for fast launch and upload files.
+Easy and simple!
+
 ## 1 UPLOAD FILES
 
 #### You can upload different files or folders to dirrectory ./nft
