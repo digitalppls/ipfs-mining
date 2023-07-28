@@ -14,7 +14,7 @@ echo "EXTRACT"
 ssh -tt root@$SERVER << EOF
  cd $FOLDER;
  git clone $GITURL;
- git pull;
+ git pull origin master;
 #  tar -zxvf ipfs.tar.gz;
 #  rm ipfs.tar.gz;
  sh start.sh;
