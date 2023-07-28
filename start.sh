@@ -10,7 +10,7 @@ echo "KILL IPFS OLD SERVER"
 docker stop ipfs/kubo:latest && docker rm ipfs/kubo:latest && docker image rm ipfs/kubo:latest
 
 echo "\n\nRUN"
-docker run -d --restart always --name ipfs -v $ipfs_staging:/export -v $ipfs_data:/data/ipfs -p 127.0.0.1:8080:8080 ipfs/kubo:latest
+docker run -d --restart always --name ipfs -v $ipfs_staging:/export -v $ipfs_data:/data/ipfs -p 127.0.0.1:5001:5001  -p 127.0.0.1:8080:8080 ipfs/kubo:latest
 sleep 5;
 echo "\n\nADD IMAGES FILES"
 docker exec ipfs ipfs add -r export/images

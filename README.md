@@ -3,7 +3,13 @@
 This dokernized ipfs server for fast launch and upload files.
 Easy and simple!
 
-## 1 UPLOAD FILES
+## 1 Install Docker
+```ts
+Before, you need install docker. You can use repository 
+https://gitpub.com/digitalppls/install 
+```
+
+## 2 UPLOAD FILES
 
 #### You can upload different files or folders to dirrectory ./nft
 
@@ -22,7 +28,7 @@ nft/images/2.png
 nft/images/3.png
 ```
 
-## 2 RUN/RERUN
+## 3 RUN/RERUN
 
 #### And run start.sh script again...
 
